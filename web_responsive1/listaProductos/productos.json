@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "tipo": "Ofertas",
+    "titulo": "CELULAR MOTOROLA MOTO G42 XT2233-1 ROSA",
+    "descripcion": "touchscreen, (tipo de vidrio de pantalla panda) resolucion 1080 x 2400, FHD+, 409, HiD, 60Hz.",
+    "img": "cel2.jpg",
+    "marca": "MOTOROLA",
+    "colores": "Rosa",
+    "conector": "USB",
+    "precio": 89999
+  },
+  {
+    "id": 2,
+    "tipo": "Ofertas",
+    "titulo": "CELULAR SAMSUNG GALAXY A13 SM-A135M NEGRO",
+    "descripcion": "Galaxy A13 y mirá lo que te habías estado perdiendo. Y con la tecnología FHD+, más nítido y claro.",
+    "img": "cel1.jpg",
+    "marca": "SAMSUNG",
+    "colores": "Negro",
+    "conector": "USB/ Bluetooth",
+    "precio":169777
+  },
+  {
+    "id": 3,
+    "tipo": "Ofertas",
+    "titulo": "RELOJ SMART SAMSUNG WATCH5 / SM-R910",
+    "descripcion": "El potente Samsung BioActive sensor 3 en 1 controla tres sensores de salud de manera efectiva. ",
+    "img": "rel2.jpg",
+    "marca": "SAMSUNG",
+    "colores": "Negro",
+    "conector": "Bluetooth",
+    "precio": 117999
+  },
+  {
+    "id": 4,
+    "tipo": "Ofertas",
+    "titulo": "RELOJ INTELIGENTE LENOVO WD06",
+    "descripcion": "Durante el entrenamiento compruebe sus zonas de frecuencia cardíaca en tiempo real en WD06",
+    "img": "rel1.png",
+    "marca": "LENOVO",
+    "colores": "Negro",
+    "conector": "Bluetooth",
+    "precio":9999
+  },
+  {
+    "id": 5,
+    "tipo": "Mouse",
+    "titulo": "MOUSE PAD",
+    "descripcion": "Pad Mouse Gamer. Base de Neoprene con microfibra en la cara superior.",
+    "img": "mou5.jpg",
+    "marca": "SHENLONG",
+    "colores": "Blanco / Verde",
+    "conector": "USB",
+    "precio": 1499
+  },
+  {
+    "id": 6,
+    "tipo": "Mouse",
+    "titulo": "PAD MOUSE SHENLONG P1000XL",
+    "descripcion": "Pad Mouse Gamer. Base de Neoprene con microfibra en la cara superior. Bordes cosidos.",
+    "img": "mou4.jpg",
+    "marca": "SHENLONG",
+    "colores": "Negro / Blanco",
+    "conector": "USB",
+    "precio": 2169
+  },
+  {
+    "id": 7,
+    "tipo": "Mouse",
+    "titulo": "MOUSE LOGITECH G203",
+    "descripcion": "El diseño clásico de seis botones te da confort y confianza para que puedas explorar, y jugar como quieras.",
+    "img": "mou3.jpg",
+    "marca": "LOGITECH",
+    "colores": "Negro / Blanco / Azul",
+    "conector": "Inalambrico",
+    "precio": 12709
+  },
+  {
+    "id": 8,
+    "tipo": "Mouse",
+    "titulo": "MOUSE MARVO M513",
+    "descripcion": "Mouse gamer optico. Material: Plastico. DPI: 800-1600-2400-3200-4000-4800. Luz: RGB de 7 colores. ",
+    "img": "mou2.jpg",
+    "marca": "MARVO",
+    "colores": "RGB",
+    "conector": "Inalambrico",
+    "precio": 3550
+  },
+  {
+    "id": 9,
+    "tipo": "Mouse",
+    "titulo": "MOUSE MARVO M207",
+    "descripcion": "Mouse optico. Material: Plastico. DPI: 800-1200-2400-3200. Luz: RGB de 7 colores. Botones: 6",
+    "img": "mou1.jpg",
+    "marca": "MARVO",
+    "colores": "RGB",
+    "conector": "USB",
+    "precio": 1950
+  },
+  {
+    "id": 10,
+    "tipo": "Teclados",
+    "titulo": "TECLADO LOGITECH KB8700",
+    "descripcion": "Disenio delgado con luz de fondo. Conexion USB. 105 teclas. Idioma espaniol. 7 teclas anti-ghosting.",
+    "img": "tec3.png",
+    "marca": "LOGITECH",
+    "colores": "Negro / Blanco",
+    "conector": "USB",
+    "precio": 3299
+  },
+  {
+    "id": 11,
+    "tipo": "Teclados",
+    "titulo": "TECLADO MECANICO MARVO KG917",
+    "descripcion": "Llaves: 107. Tipo de interruptor: mecanico (azul Outemu). Clasificacion del interruptor: 50 millones de prensas.",
+    "img": "tec2.jpg",
+    "marca": "Marvo",
+    "colores": "Negro / Blanco / Azul",
+    "conector": "USB",
+    "precio": 6500
+  },
+  {
+    "id": 12,
+    "tipo": "Teclados",
+    "titulo": "TECLADO GAMER LOGITECH G213 PRODIGY",
+    "descripcion": "G213 Prodigy Teclado Para Juegos RGB - Negro Español",
+    "img": "tec1.jpg",
+    "marca": "Logitech",
+    "colores": "Negro",
+    "conector": "USB",
+    "precio": 37500
+  },
+  {
+    "id": 13,
+    "tipo": "Camaras",
+    "titulo": "CAMARA SONY CFI-ZEY1",
+    "descripcion": "Camara p/PS5. Lentes duales valor F/F2.0 foco fijo. Resol.de video: 1080. Campo de vision 85. Microfono de 4 canales.",
+    "img": "cam3.jpg",
+    "marca": "SONY",
+    "colores": "Negro / Blanco",
+    "conector": "USB",
+    "precio": 29999
+  },
+  {
+    "id": 14,
+    "tipo": "Camaras",
+    "titulo": "CAMARA WEB MARVO MPC01",
+    "descripcion": "Enfoque fijo. Interfaz USB. Longitud del cable 1.5m.",
+    "img": "cam2.jpg",
+    "marca": "Marvo",
+    "colores": "Blanco",
+    "conector": "USB",
+    "precio": 2786
+  },
+  {
+    "id": 15,
+    "tipo": "Camaras",
+    "titulo": "CAMARA WEB CITY-TEK X1",
+    "descripcion": "Dispositivo de pixeles 200w. Campo de vision 120. Microfono incorporado.",
+    "img": "cam1.jpg",
+    "marca": "CITY-TEK",
+    "colores": "Negro / Blanco",
+    "conector": "USB",
+    "precio": 3600
+  },
+  {
+    "id": 16,
+    "tipo": "Auriculares",
+    "titulo": "AURICULAR HAVIT I98",
+    "descripcion": "Estuche de carga portatil. Calidad de sonido HD y graves profundos ricos. Control sensible al tacto.",
+    "img": "auri3.jpg",
+    "marca": "HAVIT",
+    "colores": "Negro / Blanco",
+    "conector": "Inalambrico",
+    "precio": 1280
+  },
+  {
+    "id": 17,
+    "tipo": "Auriculares",
+    "titulo": "AURICULAR HAVIT TW916",
+    "descripcion": "Estandar Bluetooth: 5.0. Rango de funcionamiento: 10 m. Respuesta de frecuencia: 20Hz~ 20KHz.",
+    "img": "auri2.jpg",
+    "marca": "HAVIT",
+    "colores": "Blanco / Verde",
+    "conector": "Inalambrico",
+    "precio":9300
+  },
+  {
+    "id": 18,
+    "tipo": "Auriculares",
+    "titulo": "AURICULAR JBL WAVE100 MARFIL",
+    "descripcion": "Auricular In ear con BT. Drive dinamico de 8 mm/0.31. Microfono. Inalambrico",
+    "img": "auri1.jpg",
+    "marca": "JBL",
+    "colores": "Negro / Blanco / Azul",
+    "conector": "Inalambrico",
+    "precio": 8115
+  }
+]
