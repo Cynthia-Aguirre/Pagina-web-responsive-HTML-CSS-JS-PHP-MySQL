@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="vue.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="h1"><i class="fa-solid fa-list-check"></i> To Do App</h1>
+    </header>
+    <main id="app">
+
+        <div class="card">
+            <label for="">Tarea</label>
+            <input v-model="name" type="text">
+            <button v-on:click="addTask" type="button">Agregar</button>
+            <input v-model="searchQuery" type="text" placeholder="Buscar tarea">
+            <button v-on:click="performSearch" type="button">Buscar</button>
+        <ul>
+            <li v-for="task in filteredTasks" :key="task.name">
+              <strong>{{ task.name }}</strong>
+            </li>
+          </ul>      
+        </div>
+
+        <div class="card">
+            <h2><i class="fa-regular fa-calendar"></i> Tareas Pendientes</h2>
+            <h4>Cantidad: <span>{{ cantidadPendientes }}</span> </h4>
+            <ul>
+                <li v-for="task in pendingTasks" :key="task.name">
+                   <strong>{{ task.name }}</strong>
+                   <i v-on:click="moveTaskToCompleted(task)" class="btn-update fa-solid fa-circle-check" title="Cambia el estado de la tarea"></i>
+                </li>
+             </ul>
+             
+        </div>
+
+        <div class="card">
+            <h2><i class="fa-regular fa-calendar-check"></i> Tareas Terminadas</h2>
+            <h4>Cantidad: <span>{{ cantidadTerminadas }}</span></h4>
+           <ul>
+                <li v-for="(task, index) in completedTasks" :key="task.name">
+                    <strong>{{ task.name }}</strong>
+
+                    <i v-on:click="moveTaskToPending(task)" class="btn-detalle fa-solid fa-clock-rotate-left" title="Cambia el estado de la tarea"></i>
+                    <i v-on:click="deleteTask(index)" class="btn-delete fa-solid fa-trash" title="Elimina la tarea"></i>
+                </li>
+           </ul>
+        </div>
+    </main>
+    <footer>
+        <p>Aguirre Cynthia DWT2AP| Aplicaciones para dispositivos móviles</p>
+    </footer>
+</body>
+</html>
